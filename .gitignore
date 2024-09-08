@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.vercel
+# Logs
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Package lock files (optional)
+package-lock.json
+yarn.lock
