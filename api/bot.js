@@ -1,7 +1,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 require("dotenv").config();
 
-const token = process.env.TELEGRAM_BOT_TOKEN;
+const token = 7511051052:AAHJoeZu1_GattzI18hrS3F9h1ZJRQp2qDE;
 const bot = new TelegramBot(token);
 
 bot.setWebHook(`${process.env.BOT_URL}/api/bot`);
