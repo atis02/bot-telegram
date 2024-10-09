@@ -59,5 +59,6 @@ module.exports = (req, res) => {
 // Bot functionality
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
+  console.log('bot is started')
   bot.sendMessage(chatId, 'Welcome! I am your bot.');
 });
